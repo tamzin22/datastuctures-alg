@@ -28,8 +28,6 @@ const powerOf2 = new PowerOfTwo();
 const power2  = powerOf2.isPowerOf2Bitwise(12)
 
 
-
-
 app.get('/', (req: Request, res: Response) => {
   res.send(`Result: ${result}, Result2: ${result2},fib :${fib},factorial : ${fact},'prime : ${prime}, power of two : ${power2}`);
 });
